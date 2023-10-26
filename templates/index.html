@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Analysis with YOLOv4</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Analyze">
+    </form>
+    <h2>Analyzed Image</h2>
+    <img src="/uploads/result.jpg" alt="Analyzed Image">
+</body>
+</html>
